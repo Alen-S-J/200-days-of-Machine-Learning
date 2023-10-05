@@ -127,9 +127,3 @@
 - Engage with online courses, textbooks, and research papers to understand the theoretical aspects deeply.
 - Implement theoretical concepts into practical projects for hands-on experience.
 - Participate in ML/DL communities and discussion forums to share knowledge and gain insights.
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 559261eba942d48cc7fa6fc3bf7a9c782a04705f
