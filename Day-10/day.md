@@ -31,7 +31,7 @@
 
 - **Hyperparameters:**
   - Learn about hyperparameters in the context of machine learning models.
-  - Understand common hyperparameters for linear regression (e.g., alpha for regularization) and their impact on the model.
+  - Understand common hyperparameters for linear regression (e.g., apha for regularization) and their impact on the model.
 
 ### Experimenting with Regularization:
 
