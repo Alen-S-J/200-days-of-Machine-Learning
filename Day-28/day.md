@@ -1,8 +1,8 @@
-**Mathematical Background:**
+# **Mathematical Background:**
 
 PCA is a dimensionality reduction technique that aims to find a new set of orthogonal axes (principal components) along which the variance of the data is maximized. This is achieved through linear algebra concepts, specifically eigenvalues and eigenvectors.
 
-**Covariance Matrix:**
+### **Covariance Matrix:**
 
 To perform PCA, you start with a dataset with \(n\) data points and \(m\) features. First, you compute the covariance matrix \(C\), which represents the relationships between features.
 
@@ -12,7 +12,7 @@ Where:
 - \(X_i\) is a data point.
 - \(\mu\) is the mean vector of the data.
 
-**Eigenvalue Decomposition:**
+### **Eigenvalue Decomposition:**
 
 Next, you find the eigenvalues (\(\lambda\)) and eigenvectors (\(v\)) of the covariance matrix \(C). These eigenvalues and eigenvectors represent the directions and amount of variance in the data.
 
