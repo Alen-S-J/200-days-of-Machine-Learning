@@ -28,5 +28,5 @@ X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 
 # Forward pass
 output = forward(X)
-print("Predictions:")
-print(output)
+print("Predictions:",output)
+
