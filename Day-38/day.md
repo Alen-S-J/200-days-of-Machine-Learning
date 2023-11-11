@@ -6,7 +6,7 @@
 Basic Gradient Descent minimizes the cost (or loss) function by iteratively updating model parameters based on the gradient of the cost function with respect to the parameters. The update rule is as follows:
 
 **Mathematical Expression:**
-\[ \theta = \theta - \alpha \nabla J(\theta) \]
+$$ \theta = \theta - \alpha \nabla J(\theta) $$
 Where:
 - \(\theta\) represents the model parameters.
 - \(\alpha\) is the learning rate.
