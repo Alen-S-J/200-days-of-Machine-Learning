@@ -6,13 +6,13 @@
 Copy code
 def batch_gradient_descent(X, y, learning_rate, iterations):
     m = len(y)
-    theta = np.zeros(X.shape[1])
+    θ = np.zeros(X.shape[1])
     
     for iteration in range(iterations):
-        gradient = (1/m) * np.dot(X.T, (np.dot(X, theta) - y))
-        theta -= learning_rate * gradient
+        gradient = (1/m) * np.dot(X.T, (np.dot(X, θ) - y))
+        θ -= learning_rate * gradient
     
-    return theta
+    return θ
 ```
 
 ### **Explanation:**
@@ -29,17 +29,17 @@ It can be computationally expensive for large datasets as it requires calculatin
 
 def stochastic_gradient_descent(X, y, learning_rate, iterations):
     m = len(y)
-    theta = np.zeros(X.shape[1])
+    θ = np.zeros(X.shape[1])
     
     for iteration in range(iterations):
         for i in range(m):
             random_index = np.random.randint(0, m)
             xi = X[random_index]
             yi = y[random_index]
-            gradient = 2 * xi.T.dot(xi.dot(theta) - yi)
-            theta -= learning_rate * gradient
+            gradient = 2 * xi.T.dot(xi.dot(θ) - yi)
+            θ -= learning_rate * gradient
     
-    return theta
+    return θ
 ```
 ### **Explanation:**
 
@@ -55,16 +55,16 @@ The random selection of data points introduces variability.
 
 def mini_batch_gradient_descent(X, y, learning_rate, iterations, batch_size):
     m = len(y)
-    theta = np.zeros(X.shape[1])
+    θ = np.zeros(X.shape[1])
     
     for iteration in range(iterations):
         for i in range(0, m, batch_size):
             xi = X[i:i+batch_size]
             yi = y[i:i+batch_size]
-            gradient = (1/batch_size) * xi.T.dot(xi.dot(theta) - yi)
-            theta -= learning_rate * gradient
+            gradient = (1/batch_size) * xi.T.dot(xi.dot(θ) - yi)
+            θ -= learning_rate * gradient
     
-    return theta
+    return θ
 ```
 
 ### **Explanation:**

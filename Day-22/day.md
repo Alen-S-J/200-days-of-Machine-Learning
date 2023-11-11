@@ -18,16 +18,16 @@ K-means is a popular unsupervised machine learning algorithm used for clustering
 
 The objective of K-means clustering is to minimize the sum of squared distances (inertia) within each cluster. Mathematically, the objective function is defined as:
 
-\[J = \sum_{i=1}^{K} \sum_{x \in C_i} ||x - \mu_i||^2\]
+$$J = $$sum_{i=1}^{K} $$sum_{x $$in C_i} ||x - $$mu_i||^2$$
 
 Where:
-- \(J\) is the total sum of squared distances (inertia).
-- \(K\) is the number of clusters.
-- \(C_i\) is the i-th cluster.
-- \(\mu_i\) is the centroid of the i-th cluster.
-- \(||x - \mu_i||^2\) is the squared Euclidean distance between a data point \(x\) and the centroid \(\mu_i\) of its assigned cluster.
+- $$J$$ is the total sum of squared distances (inertia).
+- $$K$$ is the number of clusters.
+- $$C_i$$ is the i-th cluster.
+- $$mu_i$$ is the centroid of the i-th cluster.
+- $$||x - $$mu_i||^2$$ is the squared Euclidean distance between a data point $$x$$ and the centroid $$mu_i$$ of its assigned cluster.
 
-Minimizing \(J\) means that data points are closer to their respective cluster centroids.
+Minimizing $$J$$ means that data points are closer to their respective cluster centroids.
 
 ### **Use Case Scenarios**
 
