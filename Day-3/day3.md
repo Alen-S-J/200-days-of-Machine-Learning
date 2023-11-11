@@ -54,8 +54,8 @@ There are four main elements of Reinforcement Learning, which are:
 1. **Policy**:
    - A policy can be defined as a way the agent behaves at a given time. It maps the perceived states of the environment to the actions taken on those states. A policy is the core element of RL as it alone can define the behavior of the agent. It could be deterministic or a stochastic policy:
      
-     - For deterministic policy: $$a = pi(s)$$
-     - For stochastic policy: pi(a | s) = P[At = a | St = s]$$
+     - For deterministic policy: \(a = pi(s)\)
+     - For stochastic policy: pi(a | s) = P[At = a | St = s]\)
 
 
 2. **Reward Signal**:

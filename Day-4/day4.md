@@ -9,19 +9,19 @@ Probability theory is a fundamental concept in the field of machine learning (ML
    - *Sample Space*: The set of all possible outcomes of a random experiment.
 
 2. **Probability Axioms:**
-   - *Non-negativity*: Probability of an event is always non-negative. $$ P(A) $$geq 0 $$ for any event $$ A $$.
-   - *Normalization*: Probability of the entire sample space is 1. $$ P($$text{Sample Space}) = 1 $$.
-   - *Additivity*: Probability of the union of disjoint events is the sum of their individual probabilities. For disjoint events $$ A $$ and $$ B $$, $$ P(A $$cup B) = P(A) + P(B) $$.
+   - *Non-negativity*: Probability of an event is always non-negative. \( P(A) \geq 0 \) for any event \( A \).
+   - *Normalization*: Probability of the entire sample space is 1. \( P(\text{Sample Space}) = 1 \).
+   - *Additivity*: Probability of the union of disjoint events is the sum of their individual probabilities. For disjoint events \( A \) and \( B \), \( P(A \cup B) = P(A) + P(B) \).
 
 3. **Probability Distributions:**
    - *Discrete Distributions*: Probability distributions for discrete random variables. Examples include the Bernoulli distribution, binomial distribution, and Poisson distribution.
    - *Continuous Distributions*: Probability distributions for continuous random variables. Examples include the normal (Gaussian) distribution, uniform distribution, and exponential distribution.
 
 4. **Conditional Probability:**
-   - Probability of an event occurring given that another event has occurred. $$ P(A|B) = $$frac{P(A $$cap B)}{P(B)} $$, where $$ P(A|B) $$ is the conditional probability of event $$ A $$ given event $$ B $$.
+   - Probability of an event occurring given that another event has occurred. \( P(A|B) = \frac{P(A \cap B)}{P(B)} \), where \( P(A|B) \) is the conditional probability of event \( A \) given event \( B \).
 
 5. **Bayes' Theorem:**
-   - A fundamental theorem that relates conditional probabilities. $$ P(A|B) = $$frac{P(B|A) $$times P(A)}{P(B)} $$, where $$ A $$ and $$ B $$ are events.
+   - A fundamental theorem that relates conditional probabilities. \( P(A|B) = \frac{P(B|A) \times P(A)}{P(B)} \), where \( A \) and \( B \) are events.
 
 ### Importance in Machine Learning
 

@@ -1,15 +1,14 @@
-Certainly! Let's dive deeper into the theoretical aspects and include mathematical expressions for these optimization algorithms. We'll also provide coding samples.
 
-## Morning: Optimization Algorithms
+# Optimization Algorithms
 
 ### Basic Gradient Descent
 
 Basic Gradient Descent minimizes the cost (or loss) function by iteratively updating model parameters based on the gradient of the cost function with respect to the parameters. The update rule is as follows:
 
 **Mathematical Expression:**
-$$\theta = \theta - \alpha \nabla J(\theta)$$
+\[ \theta = \theta - \alpha \nabla J(\theta) \]
 Where:
-- \theta represents the model parameters.
+- \(\theta\) represents the model parameters.
 - \(\alpha\) is the learning rate.
 - \(\nabla J(\theta)\) is the gradient of the cost function with respect to the parameters.
 
@@ -55,8 +54,8 @@ for i in range(num_iterations):
 Nesterov Accelerated Gradient, often referred to as NAG, first makes a "predictive step" to approximate where the parameters will be in the next iteration, and then computes the gradient at that predicted position.
 
 **Mathematical Expression:**
-$$v = \beta v - \alpha \nabla J(\theta + \beta v)$$
-$$\theta = \theta + v $$
+\[ v = \beta v - \alpha \nabla J(\theta + \beta v) \]
+\[ \theta = \theta + v \]
 
 ```python
 # Implementation of Nesterov Accelerated Gradient (NAG)
@@ -80,8 +79,8 @@ Adaptive learning rate methods adjust the learning rate during training based on
 RMSprop adapts the learning rate by scaling it with the moving average of the squared gradients.
 
 **Mathematical Expression:**
-$$ E[g^2]_t = \rho E[g^2]_{t-1} + (1 - \rho) g_t^2 $$
-$$ \theta = \theta - \frac{\alpha}{\sqrt{E[g^2]_t + \epsilon}} g_t $$
+\[ E[g^2]_t = \rho E[g^2]_{t-1} + (1 - \rho) g_t^2 \]
+\[ \theta = \theta - \frac{\alpha}{\sqrt{E[g^2]_t + \epsilon}} g_t \]
 
 Where:
 - \(E[g^2]_t\) is the moving average of squared gradients.

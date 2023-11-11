@@ -17,7 +17,7 @@
 
 ## 4. Neurons (or Nodes):
 - **Theoretical Aspect**: Neurons are the basic computation units, applying a transformation to their inputs.
-- **Mathematical Aspect**: Each neuron computes a weighted sum of its inputs, adds a bias term, and applies an activation function, typically represented as $$f($$sum_i(w_i $$cdot x_i) + b)$$.
+- **Mathematical Aspect**: Each neuron computes a weighted sum of its inputs, adds a bias term, and applies an activation function, typically represented as \(f(\sum_i(w_i \cdot x_i) + b)\).
 - **Use Case Scenario**: In recommendation systems, neurons in a collaborative filtering neural network model user-item interactions to predict user preferences.
 
 ## 5. Connections (Synapses):

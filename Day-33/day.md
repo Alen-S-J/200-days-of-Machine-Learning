@@ -4,9 +4,9 @@
 The sigmoid function squashes input values to the range [0, 1]. It's often used in the output layer for binary classification problems, as it maps the output to a probability.
 
 **Mathematical Expression:**
-$$
-$$sigma(x) = $$frac{1}{1 + e^{-x}}
-$$
+\[
+\sigma(x) = \frac{1}{1 + e^{-x}}
+\]
 
 **Code Sample in Python:**
 ```python
@@ -29,9 +29,9 @@ print(result)
 The tanh function squashes input values to the range [-1, 1]. It is zero-centered, which helps mitigate the vanishing gradient problem.
 
 **Mathematical Expression:**
-$$
-$$tanh(x) = $$frac{e^x - e^{-x}}{e^x + e^{-x}}
-$$
+\[
+\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+\]
 
 **Code Sample in Python:**
 ```python
@@ -54,9 +54,9 @@ print(result)
 ReLU is a piecewise linear function that returns the input for positive values and zero for negative values. It's the most popular activation function for hidden layers due to its simplicity and effectiveness.
 
 **Mathematical Expression:**
-$$
-f(x) = $$max(0, x)
-$$
+\[
+f(x) = \max(0, x)
+\]
 
 **Code Sample in Python:**
 ```python

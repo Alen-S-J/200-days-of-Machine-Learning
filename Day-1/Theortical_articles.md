@@ -6,7 +6,7 @@ Supervised learning is a fundamental paradigm in machine learning, where the mod
 
 ## Mathematical Representation
 
-In supervised learning, we have a dataset comprising input-output pairs, denoted as $$ (x_1, y_1), (x_2, y_2), ..., (x_n, y_n) $$. Here, $$ x $$ represents the input features (a vector of attributes), and $$ y $$ represents the target or label associated with the input. The goal is to learn a mapping or function $$ f $$ that predicts $$ y $$ given $$ x $$, i.e., $$ f: X $$rightarrow Y $$, where $$ X $$ is the input space and $$ Y $$ is the output space.
+In supervised learning, we have a dataset comprising input-output pairs, denoted as \( (x_1, y_1), (x_2, y_2), ..., (x_n, y_n) \). Here, \( x \) represents the input features (a vector of attributes), and \( y \) represents the target or label associated with the input. The goal is to learn a mapping or function \( f \) that predicts \( y \) given \( x \), i.e., \( f: X \rightarrow Y \), where \( X \) is the input space and \( Y \) is the output space.
 
 ## Key Components of Supervised Learning
 
@@ -17,7 +17,7 @@ In supervised learning, we have a dataset comprising input-output pairs, denoted
    The model in supervised learning is a mathematical or computational representation that learns the mapping between input features and target labels. It can be a linear regression model, a neural network, a decision tree, or any other suitable model depending on the problem at hand.
 
 3. **Loss Function:**
-   The loss function quantifies the error between the model's predictions and the actual target values. It measures the discrepancy between predicted $$ $$hat{y} $$ and true $$ y $$ values. Common loss functions include mean squared error (MSE) for regression problems and cross-entropy loss for classification problems.
+   The loss function quantifies the error between the model's predictions and the actual target values. It measures the discrepancy between predicted \( \hat{y} \) and true \( y \) values. Common loss functions include mean squared error (MSE) for regression problems and cross-entropy loss for classification problems.
 
 4. **Optimization Algorithm:**
    Optimization algorithms are used to adjust the model's parameters (weights and biases) to minimize the loss function. Gradient descent and its variants are widely used optimization algorithms to find the optimal model parameters.
@@ -28,7 +28,7 @@ In supervised learning, we have a dataset comprising input-output pairs, denoted
 
 **Mathematical Explanation:**
 
-Linear regression aims to fit a linear equation to predict an output variable based on one or more input features. The equation is represented as: $$ y = mx + b $$, where $$ m $$ is the slope, $$ b $$ is the intercept, $$ x $$ is the input, and $$ y $$ is the predicted output.
+Linear regression aims to fit a linear equation to predict an output variable based on one or more input features. The equation is represented as: \( y = mx + b \), where \( m \) is the slope, \( b \) is the intercept, \( x \) is the input, and \( y \) is the predicted output.
 
 **Algorithm:**
 1. Initialize the weights and biases.
@@ -41,7 +41,7 @@ Linear regression aims to fit a linear equation to predict an output variable ba
 
 **Mathematical Explanation:**
 
-Logistic regression is used for binary classification problems. It predicts the probability that a given input belongs to a certain class using the logistic function $$ $$sigma(z) = $$frac{1}{1 + e^{-z}} $$, where $$ z $$ is a linear combination of input features.
+Logistic regression is used for binary classification problems. It predicts the probability that a given input belongs to a certain class using the logistic function \( \sigma(z) = \frac{1}{1 + e^{-z}} \), where \( z \) is a linear combination of input features.
 
 **Algorithm:**
 1. Initialize the weights and biases.

@@ -78,7 +78,7 @@ LandSlope: Slope of property
        Mod	Moderate Slope	
        Sev	Severe Slope
 	
-Neighboρ od: Physical locations within Ames city limits
+Neighborhood: Physical locations within Ames city limits
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem

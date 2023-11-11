@@ -3,8 +3,8 @@
 ### K-means Clustering
 
 1. **Initialization:**
-   - Choose the number of clusters, $$K$$.
-   - Initialize $$K$$ cluster centroids randomly or using advanced methods like K-means++.
+   - Choose the number of clusters, \(K\).
+   - Initialize \(K\) cluster centroids randomly or using advanced methods like K-means++.
 
 2. **Assignment:**
    - Compute the distance (e.g., Euclidean) between each data point and all centroids.
@@ -50,7 +50,7 @@
    - Sort eigenvalues in descending order and their corresponding eigenvectors.
 
 5. **Projection Matrix:**
-   - Form the projection matrix by selecting the top $$k$$ eigenvectors.
+   - Form the projection matrix by selecting the top \(k\) eigenvectors.
 
 6. **Projection:**
    - Project the original data onto the lower-dimensional subspace using the projection matrix.
@@ -63,7 +63,7 @@
    - Start by identifying frequent individual items (singletons) in the dataset.
 
 2. **Join Step:**
-   - Generate candidate itemsets of length $$k$$ by joining frequent itemsets of length $$k-1$$.
+   - Generate candidate itemsets of length \(k\) by joining frequent itemsets of length \(k-1\).
 
 3. **Prune Step:**
    - Eliminate candidate itemsets that contain subsets which are not frequent.

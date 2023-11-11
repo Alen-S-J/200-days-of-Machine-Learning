@@ -4,21 +4,21 @@ PCA is a dimensionality reduction technique that aims to find a new set of ortho
 
 ### **Covariance Matrix:**
 
-To perform PCA, you start with a dataset with $$n$$ data points and $$m$$ features. First, you compute the covariance matrix $$C$$, which represents the relationships between features.
+To perform PCA, you start with a dataset with \(n\) data points and \(m\) features. First, you compute the covariance matrix \(C\), which represents the relationships between features.
 
-$$C = $$frac{1}{n} $$sum_{i=1}^{n} (X_i - $$mu)(X_i - $$mu)^T$$
+\[C = \frac{1}{n} \sum_{i=1}^{n} (X_i - \mu)(X_i - \mu)^T\]
 
 Where:
-- $$X_i$$ is a data point.
-- $$mu$$ is the mean vector of the data.
+- \(X_i\) is a data point.
+- \(\mu\) is the mean vector of the data.
 
 ### **Eigenvalue Decomposition:**
 
-Next, you find the eigenvalues ($$lambda$$) and eigenvectors ($$v$$) of the covariance matrix $$C). These eigenvalues and eigenvectors represent the directions and amount of variance in the data.
+Next, you find the eigenvalues (\(\lambda\)) and eigenvectors (\(v\)) of the covariance matrix \(C). These eigenvalues and eigenvectors represent the directions and amount of variance in the data.
 
 **Selecting Principal Components:**
 
-Sort the eigenvalues in descending order and select the top $$k$$ eigenvectors to form the principal components.
+Sort the eigenvalues in descending order and select the top \(k\) eigenvectors to form the principal components.
 
 **Transform Data:**
 
@@ -45,7 +45,7 @@ cov_matrix = np.cov(data, rowvar=False)
 # Step 3: Perform eigenvalue decomposition
 eigenvalues, eigenvectors = np.linalg.eig(cov_matrix)
 
-# Step 4: Select the top $$k$$ eigenvectors (principal components)
+# Step 4: Select the top \(k\) eigenvectors (principal components)
 k = 2  # For example, select the top 2 components
 top_eigenvectors = eigenvectors[:, :k]
 

@@ -14,7 +14,7 @@ Value functions estimate the expected cumulative rewards an agent can obtain und
 
 ### Policies
 
-A policy ($$pi$$) is the strategy the agent uses to determine its actions based on the current state. Policies can be deterministic or stochastic.
+A policy (\(\pi\)) is the strategy the agent uses to determine its actions based on the current state. Policies can be deterministic or stochastic.
 
 ### Bellman Equations
 

@@ -7,26 +7,26 @@
 
 #### 2. Chain Rule in Neural Networks:
 - In the context of neural networks, the chain rule is crucial for calculating gradients.
-- If you have a function $$ F(x) $$ composed of multiple functions like $$ F(x) = g(h(x)) $$, the chain rule states that $$ $$frac{dF}{dx} = $$frac{dg}{dh} $$cdot $$frac{dh}{dx} $$.
+- If you have a function \( F(x) \) composed of multiple functions like \( F(x) = g(h(x)) \), the chain rule states that \( \frac{dF}{dx} = \frac{dg}{dh} \cdot \frac{dh}{dx} \).
 - In neural networks, this helps us compute the gradient of the loss with respect to the weights.
 
 #### 3. Backpropagation for Weight Update:
 - The weight update in backpropagation can be expressed as: 
-  $$ $$text{New Weight} = $$text{Old Weight} - $$text{Learning Rate} $$times $$frac{$$partial $$text{Loss}}{$$partial $$text{Weight}} $$
+  \[ \text{New Weight} = \text{Old Weight} - \text{Learning Rate} \times \frac{\partial \text{Loss}}{\partial \text{Weight}} \]
 - This formula ensures that we move the weights in the direction that reduces the loss.
 
 #  Mathematics of Backpropagation
 
 #### 1. Mathematical Expressions:
 - The forward pass involves calculating the weighted sum of inputs and applying an activation function: 
-  $$ z = $$sum_i (w_i $$cdot x_i) + b $$
-  $$ a = $$text{activation}(z) $$
+  \[ z = \sum_i (w_i \cdot x_i) + b \]
+  \[ a = \text{activation}(z) \]
 - The loss function measures the difference between predicted and actual outputs.
 
 #### 2. Activation Function and Derivatives:
 - Common activation functions include sigmoid, tanh, and ReLU.
 - The derivative of the activation function is crucial for the chain rule in backpropagation.
-- Example: Derivative of sigmoid activation $$ $$frac{d}{dz}($$sigma(z)) = $$sigma(z) $$cdot (1 - $$sigma(z)) $$.
+- Example: Derivative of sigmoid activation \( \frac{d}{dz}(\sigma(z)) = \sigma(z) \cdot (1 - \sigma(z)) \).
 
 #### 3. Code Example (in Python with NumPy):
 ```python

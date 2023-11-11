@@ -29,26 +29,26 @@ Y = np.array([2, 4, 5, 4, 5])
 learning_rate = 0.01
 iterations = 1000
 m = len(X)
-θ0 = 0
-θ1 = 0
+theta0 = 0
+theta1 = 0
 
 # Perform batch gradient descent
 for iteration in range(iterations):
     # Calculate predictions
-    predictions = θ0 + θ1 * X
+    predictions = theta0 + theta1 * X
 
     # Calculate gradients
-    gradient_θ0 = (1/m) * np.sum(predictions - Y)
-    gradient_θ1 = (1/m) * np.sum((predictions - Y) * X)
+    gradient_theta0 = (1/m) * np.sum(predictions - Y)
+    gradient_theta1 = (1/m) * np.sum((predictions - Y) * X)
 
     # Update parameters
-    θ0 -= learning_rate * gradient_θ0
-    θ1 -= learning_rate * gradient_θ1
+    theta0 -= learning_rate * gradient_theta0
+    theta1 -= learning_rate * gradient_theta1
 
-print("Optimal θ0:", θ0)
-print("Optimal θ1:", θ1)
+print("Optimal theta0:", theta0)
+print("Optimal theta1:", theta1)
 ```
 
-This code uses gradient descent to find the best values for `θ0` and `θ1` that minimize the cost function of a simple linear regression model.
+This code uses gradient descent to find the best values for `theta0` and `theta1` that minimize the cost function of a simple linear regression model.
 
 Remember that this is a simplified example. In practice, libraries like NumPy or machine learning frameworks like TensorFlow or PyTorch handle the gradient descent for complex models.
