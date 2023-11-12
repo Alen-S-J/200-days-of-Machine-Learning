@@ -85,7 +85,8 @@ Let's consider a simple scenario of binary classification using a single neuron 
    learning_rate = 0.1
    W -= learning_rate * dL_dW
    b -= learning_rate * dL_db
-   ```
 ```
+
+
 
 This is a simplified example, but it demonstrates the core concepts of forward propagation, loss calculation, backpropagation, and gradient descent in a binary classification scenario. You can apply these concepts to more complex neural networks and real-world applications in machine learning.
