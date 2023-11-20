@@ -1,0 +1,11 @@
+
+Summary of Experimentation:
+
+- Experimented with different hyperparameters: learning rates, batch sizes, and regularization techniques.
+- Utilized data augmentation techniques to increase dataset diversity.
+- Achieved a test accuracy of XYZ% on the CIFAR-10 dataset.
+- Visualized learned filters from the first Conv2D layer, showcasing feature detection.
+
+Further Analysis:
+- Consider exploring additional optimization techniques (e.g., transfer learning) for higher accuracy.
+- Assess model performance on larger datasets or different architectures.
