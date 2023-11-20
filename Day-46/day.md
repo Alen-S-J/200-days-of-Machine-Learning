@@ -3,7 +3,6 @@
 #### Dataset Selection
 - Choose an image dataset suitable for classification tasks:
   - MNIST for basic digit classification.
-  - CIFAR-10 for more complex classification involving different objects.
   - ImageNet for a large-scale dataset with diverse categories.
 - Download the dataset and preprocess if necessary (e.g., normalization, resizing).
 
