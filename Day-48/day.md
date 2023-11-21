@@ -1,4 +1,4 @@
-### Day 48: Data Augmentation Techniques
+# Day 48: Data Augmentation Techniques
 
 #### Goal:
 Improve the robustness and generalization of the dataset by applying various augmentation techniques.
