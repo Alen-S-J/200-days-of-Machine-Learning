@@ -36,6 +36,8 @@ Improve the robustness and generalization of the dataset by applying various aug
 - GitHub repositories or sample code illustrating augmentation implementation with CNNs.
 
 
+### sample data augmentation techniques(pil library)
+
 ```Python
 from PIL import Image
 import numpy as np
