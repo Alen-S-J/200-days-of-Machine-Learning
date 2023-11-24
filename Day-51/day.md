@@ -1,59 +1,19 @@
-import numpy as np
-import tensorflow as tf
 
-# Define the input text
-text = "hello world!"
 
-# Creating a mapping of unique characters to integers
-chars = sorted(list(set(text)))
-char_to_int = {c: i for i, c in enumerate(chars)}
-int_to_char = {i: c for i, c in enumerate(chars)}
+### Day 51: Foundations of RNNs
 
-# Preprocessing the text data
-seq_length = 100  # Define sequence length
-dataX = []
-dataY = []
-for i in range(0, len(text) - seq_length, 1):
-    seq_in = text[i:i + seq_length]
-    seq_out = text[i + seq_length]
-    dataX.append([char_to_int[char] for char in seq_in])
-    dataY.append(char_to_int[seq_out])
-n_patterns = len(dataX)
+- ** Academic Papers and Articles on RNN Basics**
+  - Look for seminal papers on RNNs like the original paper by Rumelhart, Hinton, and Williams or more recent ones that introduce improvements or variations.
+  - Focus on understanding the fundamental architecture of RNNs, how they process sequential data, and their ability to retain memory over time steps.
+  - Pay attention to concepts like hidden states, recurrent connections, and the unfolding of the network through time.
 
-# Reshape X to be [samples, time steps, features]
-X = np.reshape(dataX, (n_patterns, seq_length, 1))
-# Normalize input
-X = X / float(len(chars))
-# One-hot encode the output variable
-y = tf.keras.utils.to_categorical(dataY)
+- **Video Tutorials and Lectures on RNN Concepts**
+  - Explore online platforms like Coursera, YouTube (lectures from academic institutions), or dedicated machine learning websites offering tutorials on RNNs.
+  - Watch videos explaining the concepts in a visual manner, emphasizing applications in natural language processing (NLP), time series analysis, and other sequential data domains.
+  - Take notes to reinforce your understanding of how RNNs handle sequences and their applications in different fields.
 
-# Define the RNN model
-model = tf.keras.Sequential()
-model.add(tf.keras.layers.LSTM(256, input_shape=(X.shape[1], X.shape[2])))
-model.add(tf.keras.layers.Dense(y.shape[1], activation='softmax'))
+- ** Review Code Examples Implementing Simple RNNs**
+  - Search for code repositories or tutorials on platforms like GitHub, Kaggle, or machine learning blogs that demonstrate basic RNN implementations.
+  - Study code snippets that involve sequence prediction or generation tasks using frameworks like TensorFlow, PyTorch, or Keras.
+  - Experiment with small modifications to understand how altering parameters affects the model's behavior and predictions.
 
-# Compile the model
-model.compile(loss='categorical_crossentropy', optimizer='adam')
-
-# Fit the model
-model.fit(X, y, epochs=20, batch_size=128)
-
-# Generate text
-start = np.random.randint(0, len(dataX) - 1)
-pattern = dataX[start]
-print("Seed:")
-print("\"", ''.join([int_to_char[value] for value in pattern]), "\"")
-
-# Generate characters
-for i in range(100):
-    x = np.reshape(pattern, (1, len(pattern), 1))
-    x = x / float(len(chars))
-    prediction = model.predict(x, verbose=0)
-    index = np.argmax(prediction)
-    result = int_to_char[index]
-    seq_in = [int_to_char[value] for value in pattern]
-    sys.stdout.write(result)
-    pattern.append(index)
-    pattern = pattern[1:len(pattern)]
-
-print("\nDone.")
