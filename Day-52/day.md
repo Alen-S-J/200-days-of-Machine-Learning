@@ -14,9 +14,40 @@ Where:
 ### Elman RNN:
 Elman RNN is a type of basic RNN where the hidden state at time \(t\) depends only on the current input and the previous hidden state \(h_{t-1}\). Its equation is the same as the basic RNN's hidden state formula.
 
+```Python
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import SimpleRNN, Dense
+
+# Your data preprocessing and vectorization steps here
+
+model = Sequential()
+model.add(SimpleRNN(128, input_shape=(maxlen, len(chars)), return_sequences=True))
+model.add(Dense(len(chars), activation='softmax'))
+
+model.compile(loss='categorical_crossentropy', optimizer='adam')
+model.fit(X, y, batch_size=128, epochs=30)
+
+```
 ### Jordan RNN:
 In Jordan RNN, the output at time \(t\) is based on the hidden state at the same time step. It's described as:
+```Python
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import SimpleRNN, Dense
 
+# Your data preprocessing and vectorization steps here
+
+model = Sequential()
+model.add(SimpleRNN(128, input_shape=(maxlen, len(chars)), return_sequences=True))
+model.add(TimeDistributed(Dense(len(chars), activation='softmax')))
+
+model.compile(loss='categorical_crossentropy', optimizer='adam')
+model.fit(X, y, batch_size=128, epochs=30)
+
+```
 \[
 y_t = \text{softmax}(W_{yh}h_t + b_y)
 \]
@@ -27,7 +58,21 @@ Where:
 
 ### Bidirectional RNN:
 Bidirectional RNNs process the input sequence in both forward and backward directions to capture information from past and future contexts. The hidden state at time \(t\) is the concatenation of the forward and backward hidden states.
+```python
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Bidirectional, LSTM, Dense
 
+# Your data preprocessing and vectorization steps here
+
+model = Sequential()
+model.add(Bidirectional(LSTM(128, return_sequences=True), input_shape=(maxlen, len(chars))))
+model.add(Dense(len(chars), activation='softmax'))
+
+model.compile(loss='categorical_crossentropy', optimizer='adam')
+model.fit(X, y, batch_size=128, epochs=30)
+```
 ### Applications of RNNs:
 - **Language Modeling:** Predicting the probability distribution over sequences of words.
 - **Music Generation:** Creating new music based on learned patterns from existing compositions.
