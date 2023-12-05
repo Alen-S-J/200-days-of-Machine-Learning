@@ -1,4 +1,4 @@
-
+# 
 
 ### **Generator:**
 The generator in GANs is a neural network that aims to produce synthetic data samples that closely resemble real data. It takes random noise, typically sampled from a simple distribution like Gaussian or uniform, as input. Through multiple layers, this noise is transformed to generate data instances. The objective is for the generated data to be indistinguishable from real data when examined by the discriminator.
