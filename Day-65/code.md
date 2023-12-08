@@ -20,7 +20,7 @@
 4. **Training Loop:**
     - Alternates between training the discriminator and the adversarial network (generator).
     - In each epoch:
-        - Randomly selects real images from the MNIST dataset.
+        - Randomly selects real images from the  MNIST dataset.
         - Generates fake images using random noise fed into the generator.
         - Trains the discriminator on both real and fake images, computing the discriminator loss.
         - Trains the generator through the adversarial network, aiming to fool the discriminator (generates real-like images), computing the generator loss.
