@@ -1,4 +1,4 @@
-
+#  Troubleshooting and Debugging
 ### Mode Collapse:
 
 #### Adding Noise to Inputs:
