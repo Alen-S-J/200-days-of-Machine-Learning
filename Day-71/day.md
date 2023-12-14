@@ -1,6 +1,5 @@
-Certainly! Here are some basic concepts in reinforcement learning along with their mathematical expressions in Markdown format:
 
-### Concepts in Reinforcement Learning
+# Concepts in Reinforcement Learning
 
 #### 1. **Agent (𝜋) and Environment (𝒆)**
 - **Definition:** 
