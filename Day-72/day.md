@@ -1,6 +1,5 @@
-Absolutely! Markov Decision Processes (MDPs) are foundational to understanding sequential decision-making in Reinforcement Learning. Here are the theoretical concepts and corresponding mathematical expressions in Markdown format:
 
-### Theoretical Concepts in MDPs
+# Theoretical Concepts in MDPs
 
 #### 1. **States (𝑆), Actions (𝐴), and Transitions (𝑃)**
 - **Definition:** 
