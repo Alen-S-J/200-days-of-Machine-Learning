@@ -3,5 +3,9 @@
         {
             "path": "."
         }
-    ]
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.windows": "PowerShell",
+        "editor.fontFamily": "'FiraMono Nerd ',Consolas, 'Courier New', monospace"
+    }
 }
