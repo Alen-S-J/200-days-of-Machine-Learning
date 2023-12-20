@@ -1,6 +1,4 @@
-Sure, here's a basic template for a README file that covers the topics you mentioned:
 
----
 
 # Deep Q Networks (DQN)
 
@@ -20,10 +18,4 @@ The goal of this repository is to explore and understand how deep neural network
 ## Resources
 - [Link to Research Paper on DQN](link-to-paper): Original paper by DeepMind introducing DQN.
 - [Q-Learning Tutorial](link-to-tutorial): Basics of Q-learning for foundational understanding.
-
-## Getting Started
-To begin exploring DQN, follow these steps:
-1. Clone the repository: `git clone https://github.com//Day-77.git`
-2. Install the necessary dependencies listed in the `requirements.txt` file.
-3. Explore the provided documentation, code, and tutorials.
 
