@@ -12,21 +12,6 @@ This repository contains code for an RL agent implemented in a simple environmen
 - OpenAI Gym
 - [Any other specific libraries or dependencies]
 
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your_username/rl-agent-in-simple-environment.git
-    cd rl-agent-in-simple-environment
-    ```
-
-2. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. Choose the environment:
