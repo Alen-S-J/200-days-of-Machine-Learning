@@ -24,6 +24,6 @@ This repository contains information and hands-on experimentation related to tra
   4. Experiment with fine-tuning techniques or adjustments to improve performance in the new domain.
 
 ### Repository Structure:
-- **/Challenges_and_Considerations:** Contains documentation and resources related to the challenges of transfer learning.
-- **/Hands-On_Experimentation:** Includes code, notebooks, or scripts used for the hands-on experiments and evaluations.
+- **Challenges_and_Considerations:** Contains documentation and resources related to the challenges of transfer learning.
+- **Hands-On_Experimentation:** Includes code, notebooks, or scripts used for the hands-on experiments and evaluations.
 
