@@ -1,4 +1,4 @@
-:
+# SSL Application in Different Domain
 
 ### Computer Vision:
 SSL in computer vision leverages techniques like **contrastive learning** or **pretext tasks** to learn meaningful representations from unlabeled data. Models are trained to predict relationships between different parts of an image or to solve pretext tasks, which indirectly helps in improving performance on downstream tasks like image classification, object detection, and segmentation with limited labeled data. SSL enables models to capture robust features, reducing the dependency on large labeled datasets.
