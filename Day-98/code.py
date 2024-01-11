@@ -6,6 +6,7 @@ from torchvision import transforms
 from torch.utils.data import DataLoader
 from torchvision.datasets import MNIST
 
+
 # Define transform to preprocess the data
 transform = transforms.Compose([
     transforms.ToTensor(),
