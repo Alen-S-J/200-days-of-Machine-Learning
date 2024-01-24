@@ -1,4 +1,6 @@
-# Table of Contents
+# Types of Attention Mechanism in Natural language Processing
+
+### Table of Contents
 1. [Introduction](#introduction)
 2. [Attention Model](#attention-model)
 3. [How Attention Works?](#how-attention-works)
