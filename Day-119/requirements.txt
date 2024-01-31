@@ -1,0 +1,7 @@
+tensorflow
+spacy
+transformer
+pandas 
+nltk
+requests
+BeautifulSoup
