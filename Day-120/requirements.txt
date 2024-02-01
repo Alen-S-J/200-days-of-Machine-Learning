@@ -1,0 +1,4 @@
+BeautifulSoup
+nltk
+pandas
+matplotlib
