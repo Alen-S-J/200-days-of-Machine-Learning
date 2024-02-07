@@ -1,4 +1,4 @@
-**Day 125: Strategies for Handling Time Series Data Challenges**
+# **Day 125: Strategies for Handling Time Series Data Challenges**
 
 Today, we'll focus on strategies for handling the common challenges associated with time series data. Let's dive into some techniques for addressing missing values, outliers, and non-stationarity:
 
