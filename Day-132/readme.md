@@ -1,6 +1,6 @@
 **Day 132 Plan:**
 
-- **Morning:**
+- 
   - **Review Fundamental Computer Vision Concepts:**
     - Spend 30 minutes reviewing basic image processing techniques like filtering, edge detection, and morphological operations.
     - Allocate another 30 minutes to brush up on deep learning basics relevant to computer vision, such as convolutional neural networks (CNNs), activation functions, and backpropagation.
@@ -13,7 +13,7 @@
     - Spend 15 minutes comparing the YOLO (You Only Look Once) and SSD (Single Shot MultiBox Detector) algorithms in terms of architecture, speed, and accuracy.
     - Make a list of key differences and similarities between the two approaches.
 
-- **Afternoon:**
+- 
   - **Deep Dive into Chosen Advanced CV Task (Semantic Segmentation):**
     - Allocate 1 hour for an in-depth study of semantic segmentation, focusing on the theoretical background, common architectures (e.g., U-Net, FCN), and evaluation metrics (e.g., Intersection over Union).
     - Take detailed notes and bookmark important resources for future reference.
@@ -26,7 +26,7 @@
     - Dedicate the remaining 1 hour and 15 minutes to working on practice problems or coding exercises related to the chosen algorithm. Implement key components such as loss functions, network architectures, or post-processing techniques.
     - Experiment with different hyperparameters and settings to gain hands-on experience.
 
-- **Evening:**
+
   - **Summarize Key Takeaways from the Day:**
     - Reflect on the day's learning experiences and jot down key insights, challenges encountered, and areas for further exploration.
     - Create a structured summary document for future reference.
