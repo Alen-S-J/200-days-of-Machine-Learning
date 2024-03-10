@@ -14,3 +14,4 @@
   7. Train the segmentation model on the training dataset. Monitor the training process for convergence and adjust hyperparameters if necessary.
   8. Validate the trained model on the validation set to assess its performance and adjust the model architecture or training process as needed.
 
+ddddddddf

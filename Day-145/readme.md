@@ -1,4 +1,4 @@
-# Day-144:  Image Segmentation with U-Net
+# Day-144: Image Segmentation with U-Net
 
 ## Introduction
 
