@@ -14,7 +14,7 @@ The main objectives of this project are:
 4. Deploy the trained model as an API or web service for real-time sentiment classification of product reviews.
 5. Create a user-friendly interface or dashboard for businesses to analyze customer sentiment.
 
-## Project Timeline (Days 151-180)
+## Project Timeline (Days 151-200)
 
 ### Week 1 (Days 151-157):
 
@@ -34,11 +34,12 @@ The main objectives of this project are:
 - **Day 168-170:** Develop and deploy the sentiment analysis model as an API or web service.
 - **Day 171:** Integrate the model into a user-friendly interface or dashboard.
 
-### Week 4 (Days 172-180):
+### Week 4 (Days 172-200):
 
 - **Day 172-175:** Conduct testing, optimization, and documentation of the project.
 - **Day 176-178:** Prepare for project presentation and demo.
-- **Day 179-180:** Finalize the project, review code, and ensure all deliverables are met.
+- **Day 178-180**: Using social platform for finding new ideas and integrate make more convient to all
+- **Day 180-200:** Finalize the project, review code, and ensure all deliverables are met.
 
 ## Conclusion
 
